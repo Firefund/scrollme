@@ -1,0 +1,39 @@
+{
+  "name": "scrollme",
+  "version": "1.1.1",
+  "description": "A jQuery plugin for adding simple scrolling effects to web pages.",
+  "main": "jquery.scrollme.js",
+  "keywords": [
+    "animation",
+    "scrolling"
+  ],
+  "authors": [
+    {
+      "name": "Nick Pearson",
+      "url": "http://nckprsn.com"
+    },
+    {
+      "name": "dotnetCarpenter",
+      "url": "https://github.com/dotnetCarpenter"
+    }
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "uglifyjs jquery.scrollme.js --compress > jquery.scrollme.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nckprsn/scrollme.git"
+  },
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/nckprsn/scrollme/issues"
+  },
+  "homepage": "https://github.com/nckprsn/scrollme#readme",
+  "dependencies": {
+    "jquery": ">=1.8"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.6.2"
+  }
+}
